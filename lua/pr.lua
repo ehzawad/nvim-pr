@@ -259,7 +259,7 @@ local function load_pr_information()
 end
 
 local function setup()
-	vim.keymap.set("n", "<leader>pr", load_pr_information, { desc = "Get Pull Request Information" })
+	vim.keymap.set("n", "<leader><leader>pr", load_pr_information, { desc = "Get Pull Request Information" })
 end
 
 return {
